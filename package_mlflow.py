@@ -46,7 +46,7 @@ mlflow.pyfunc.save_model(
                     "jaraco-collections==5.1.0",
                     "numpy==2.2.1",
                     "scipy==1.15.1",
-                    "timm==0.6.13",
+                    "timm>=0.9.12",
                     "torch==2.5.1",
                     "torchvision==0.20.1",
                     "huggingface-hub==0.27.1",

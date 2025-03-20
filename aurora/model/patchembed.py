@@ -6,7 +6,7 @@ from typing import Optional
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from timm.models.layers.helpers import to_2tuple
+from timm.models.layers import to_2tuple
 
 __all__ = ["LevelPatchEmbed"]
 
